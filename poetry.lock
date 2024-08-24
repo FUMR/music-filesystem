@@ -115,8 +115,8 @@ category = "dev"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 name = "pre-commit"
 optional = false
-python-versions = ">=3.7"
-version = "2.21.0"
+python-versions = ">=3.8"
+version = "3.5.0"
 
 [package.dependencies]
 cfgv = ">=2.0.0"
@@ -201,7 +201,7 @@ docs = ["proselint (>=0.10.2)", "sphinx (>=3)", "sphinx-argparse (>=0.2.5)", "sp
 testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", "packaging (>=20.0)", "pytest (>=4)", "pytest-env (>=0.6.2)", "pytest-freezegun (>=0.4.1)", "pytest-mock (>=2)", "pytest-randomly (>=1)", "pytest-timeout (>=1)"]
 
 [metadata]
-content-hash = "bd50fe067243f83cc33a9fc28967ccd27c3865211355dd3bfdf758c2a60a3f93"
+content-hash = "8d6b7e5b541d6a62059bcdd258313487e1414d2a4e7192ef2f6eb5dde2c53e09"
 lock-version = "1.0"
 python-versions = "^3.8"
 
