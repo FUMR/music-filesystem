@@ -127,6 +127,17 @@ virtualenv = ">=20.10.0"
 
 [[package]]
 category = "dev"
+description = "Pygments is a syntax highlighting package written in Python."
+name = "pygments"
+optional = false
+python-versions = ">=3.8"
+version = "2.19.1"
+
+[package.extras]
+windows-terminal = ["colorama (>=0.4.6)"]
+
+[[package]]
+category = "dev"
 description = "Python parsing module"
 name = "pyparsing"
 optional = false
@@ -138,25 +149,26 @@ category = "dev"
 description = "pytest: simple powerful testing with Python"
 name = "pytest"
 optional = false
-python-versions = ">=3.8"
-version = "8.3.5"
+python-versions = ">=3.9"
+version = "8.4.0"
 
 [package.dependencies]
-colorama = "*"
-iniconfig = "*"
-packaging = "*"
+colorama = ">=0.4"
+iniconfig = ">=1"
+packaging = ">=20"
 pluggy = ">=1.5,<2"
+pygments = ">=2.7.2"
 
 [package.dependencies.exceptiongroup]
 python = "<3.11"
-version = ">=1.0.0rc8"
+version = ">=1"
 
 [package.dependencies.tomli]
 python = "<3.11"
 version = ">=1"
 
 [package.extras]
-dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
+dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "requests", "setuptools", "xmlschema"]
 
 [[package]]
 category = "dev"
@@ -218,6 +230,7 @@ packaging = []
 platformdirs = []
 pluggy = []
 pre-commit = []
+pygments = []
 pyparsing = []
 pytest = []
 pyyaml = []
