@@ -116,7 +116,7 @@ description = "A framework for managing and maintaining multi-language pre-commi
 name = "pre-commit"
 optional = false
 python-versions = ">=3.9"
-version = "4.2.0"
+version = "4.3.0"
 
 [package.dependencies]
 cfgv = ">=2.0.0"
