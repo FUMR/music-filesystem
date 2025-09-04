@@ -150,7 +150,7 @@ description = "pytest: simple powerful testing with Python"
 name = "pytest"
 optional = false
 python-versions = ">=3.9"
-version = "8.4.1"
+version = "8.4.2"
 
 [package.dependencies]
 colorama = ">=0.4"
